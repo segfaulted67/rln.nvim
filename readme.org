@@ -1,7 +1,22 @@
 * rln.nvim
 
-Toggle relative number line with keybind
+toggle relative number line with keybind
 
-** Features
-Toggle relative number on/off
+** features
+- Toggle relative number on/off
 
+**installation
+ 📦install the plugin with your package manager:
+*** using [[https://github.com/folke/lazy.nvim.git][lazy.nvim]]:
+#+begin-src lua
+return{
+  'segfaulted67/rln.nvim',
+  lazy = false,
+  config = function()
+    require('rln')
+  end
+}
+#+end-src
+
+** Usage
+- Default keybind: <leader>rn
