@@ -1,0 +1,7 @@
+* rln.nvim
+
+Toggle relative number line with keybind
+
+** Features
+Toggle relative number on/off
+
