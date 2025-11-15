@@ -8,7 +8,7 @@ toggle relative number line with keybind
 **installation
  📦install the plugin with your package manager:
 *** using [[https://github.com/folke/lazy.nvim.git][lazy.nvim]]:
-#+begin-src lua
+#+BEGIN_SRC lua
 return{
   'segfaulted67/rln.nvim',
   lazy = false,
@@ -16,7 +16,7 @@ return{
     require('rln')
   end
 }
-#+end-src
+#+END_SRC
 
 ** Usage
 - Default keybind: <leader>rn
