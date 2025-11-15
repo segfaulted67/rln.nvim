@@ -5,7 +5,7 @@ toggle relative number line with keybind
 ** features
 - Toggle relative number on/off
 
-**installation
+** installation
  📦install the plugin with your package manager:
 *** using [[https://github.com/folke/lazy.nvim.git][lazy.nvim]]:
 #+BEGIN_SRC lua
