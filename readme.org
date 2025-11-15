@@ -9,14 +9,21 @@ toggle relative number line with keybind
  📦install the plugin with your package manager:
 *** using [[https://github.com/folke/lazy.nvim.git][lazy.nvim]]:
 #+BEGIN_SRC lua
-return{
+{
   'segfaulted67/rln.nvim',
-  lazy = false,
   config = function()
     require('rln')
-  end
+  end,
 }
 #+END_SRC
-
+*** using [[https://github.com/wbthomason/packer.nvim][packer]]
+#+BEGIN_SRC lua
+use{
+  'segfaulted67/rln.nvim',
+  config = function()
+    require('rln')
+  end,
+}
+#+END_SRC
 ** Usage
-- Default keybind: <leader>rn
+- Default keybind: <leader>rn to toggle relative numbers
