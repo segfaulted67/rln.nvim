@@ -7,7 +7,7 @@ function M.toggle()
     print("Disabled Relative Number")
   else
     print("Enabled Relative Number")
-  end,
+  end
 end
 
 vim.keymap.set({ 'n', 'v' }, '<leader>rn', function()
